@@ -9,11 +9,11 @@ const PORT = process.env.PORT || 3000;
 app.use(cors());
 app.use(express.json());
 
-// Sample location data
+// Sample location data (dummy GPS)
 let locationData = {
-  lat: 6.9271,
-  lon: 79.8612,
-  heading: 180,
+  lat: 6.9271, // Example latitude (Colombo, Sri Lanka)
+  lon: 79.8612, // Example longitude
+  heading: 180, // Example heading
 };
 
 // Route: Get current location
